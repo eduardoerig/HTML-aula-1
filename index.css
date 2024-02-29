@@ -1,22 +1,53 @@
-body{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-decoration-color: blueviolet;
-margin: 2cm;
-text-align:center;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(59, 59, 85);
+    color: aliceblue;
+    text-align: center;
 
 }
-header{
-    background-color: rgba(231, 219, 111, 0.288);
-    text-align:center;
+
+header {
+    background-color: rgb(41, 104, 155);
+    text-align: center;
 }
-section{
+
+section {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 10px;
-    text-align:center;
+    margin: 1px;
+    text-align: center;
 
 }
-header{
+
+header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
-    text-align:center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 251, 0);
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+
+}
+a{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 251, 0);
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: crosshair;
 }
