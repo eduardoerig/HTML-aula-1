@@ -4,6 +4,7 @@
      font-family: Arial, sans-serif;
      margin: 0;
      padding: 0;
+     text-align: center;
  }
 
  section {
@@ -62,4 +63,20 @@
 
  a:hover {
      cursor: grab;
+ }
+ iframe{
+padding: 20px;
+ }
+
+ .container{
+    display: flex;
+    align-items: center;
+ }
+
+ .container img{
+    max-width: 50%;
+
+ }
+ .container aside{
+    flex: 1;
  }
